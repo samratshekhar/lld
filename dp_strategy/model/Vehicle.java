@@ -1,4 +1,4 @@
-package dp_strategy;
+package dp_strategy.model;
 
 import dp_strategy.strategy.DriveStrategy;
 import dp_strategy.strategy.SeatingStrategy;
