@@ -4,15 +4,13 @@ import dp_decorator.model.BasePizza;
 
 public class CheeseDecorator extends ToppingsDecorator {
 
-    private BasePizza basePizza;
-
     public CheeseDecorator(BasePizza basePizza) {
-        this.basePizza = basePizza;
+        super(basePizza);
     }
 
     @Override
     public int cost() {
-        return this.basePizza.cost() + 20;
+        return this.pizza.cost() + 20;
     }
 
 }
