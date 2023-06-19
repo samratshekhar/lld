@@ -1,4 +1,4 @@
-package dp_strategy;
+package dp_strategy.strategy;
 
 public class SeatingStrategyFourImpl implements SeatingStrategy {
 
