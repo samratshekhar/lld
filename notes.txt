@@ -1,0 +1,7 @@
+SOLID principle
+
+(S)ingle responsibility principle - A class should have only one reason to change. In case there are multiple reasons for a class to change, break it down recursively.
+(O)pen/Closed principle - Classes should be open for extension, but closed for modification. Rather than adding/modifying existing tested classes and introduce regression, it's better to extend them to code changes.
+(L)iskov's  substitution principle - If class B is subtype of A, replacing A with B should not break the system. A class should always extend parent's capabilities instead of restricting it.
+(I)nterface segregation principle - Interfaces should be such that client's shouldn't implement un-necessary methods. Break huge interfaces into more compasable ones in such cases.
+(D)epndency inversion principle - Class should depend on interfaces rather than concrete classes.
